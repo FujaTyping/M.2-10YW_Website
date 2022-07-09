@@ -5,5 +5,5 @@ function playsong() {
     console.log("Songplay!");
     Scsong.play();
     console.log("Loop /");
-    Scsong.loop;
+    Scsong.loop = true
 }  
