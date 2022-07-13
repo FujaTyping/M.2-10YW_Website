@@ -10,9 +10,9 @@
   
   /* Header/logo Title */
   .header {
-    padding: 50px;
+    padding: 30px;
     text-align: center;
-    background-image: url('Img/Header.png');
+    background-image: url('https://cdn.discordapp.com/attachments/988037995531759658/996628101423435927/output-onlinepngtools_1.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -22,9 +22,9 @@
   }
 
   .headersp {
-    padding: 50px;
+    padding: 30px;
     text-align: center;
-    background-image: url('Img/BlueMaharaj.png');
+    background-image: url('https://cdn.discordapp.com/attachments/988037995531759658/996637082040680468/output-onlinepngtools_2.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -168,4 +168,33 @@
   
   #myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
+  }
+
+  /*DropDown Img*/
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+  .desc {
+    font-family: Roboto;
+    padding: 15px;
+    text-align: center;
+    color: black;
   }
