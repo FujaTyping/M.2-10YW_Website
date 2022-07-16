@@ -21,6 +21,18 @@
     color: white;
   }
 
+  .headerlogin {
+    padding: 30px;
+    text-align: center;
+    background-image: url('https://cdn.discordapp.com/attachments/988037995531759658/996628101423435927/output-onlinepngtools_1.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    /*background: linear-gradient(to top, #ff0000 0%, #0000ff 100%);*/
+    color: white;
+  }
+
   .headersp {
     padding: 30px;
     text-align: center;
